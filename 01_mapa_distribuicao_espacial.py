@@ -6,8 +6,8 @@ O contorno oficial dos estados do Brasil, com foco na faixa costeira onde estão
 Oceano em azul bem claro, estados sem coleta em cinza claro e os 6 estados com coleta (BA, CE, RJ, SC, SP e SE) destacados em outra cor suave, com a sigla escrita dentro de cada um.
 Todos os pontos plotados: negativos em azul e positivos em vermelho (ficando por cima dos azuis para dar destaque), mostrando a quantidade (n) de cada grupo na legenda.
 Grade de coordenadas, nomes dos eixos (Latitude e Longitude), seta indicando o Norte, legenda limpa e o título: "Distribuição espacial de mamíferos aquáticos avaliados e positividade para Helicobacter spp."
-Por favor, gere o código completo pronto para copiar e colar, me diga exatamente o que preciso instalar no computador para rodar e salve o mapa como uma imagem PNG pronta para colar no Word.
-'''
+Por favor, gere o código completo pronto para copiar e colar, me diga exatamente o que preciso instalar no computador para rodar e salve o mapa como uma imagem PNG pronta para colar no Word.'''
+
 import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
