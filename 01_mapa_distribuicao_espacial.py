@@ -25,7 +25,7 @@ plt.rcParams['axes.linewidth'] = 0.8
 # ==============================================================================
 # 2. CARREGAR E LIMPAR OS DADOS
 # ==============================================================================
-arquivo = 'dados_geograficos_com_PCR.csv’     # ou .xlsx 
+arquivo = 'dados_geograficos_com_PCR.csv'     # ou .xlsx 
 col_pcr = 'PCR_Positivo'     # ou .xlsx 
 
 try:
