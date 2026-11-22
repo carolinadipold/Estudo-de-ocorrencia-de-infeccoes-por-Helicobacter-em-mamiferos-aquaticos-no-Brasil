@@ -1,3 +1,21 @@
+'''Função gerada com auxílio do Google Gemini (modelo 4 Neon) em nov/2026
+Prompt base: Não sei programar em Python, mas preciso gerar um gráfico de barras horizontais em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) mostrando a distribuição das amostras positivas para Helicobacter spp. de acordo com o órgão ou tecido de origem.
+Não precisa ler nenhuma planilha, os dados vão diretamente no código:
+Estômago (não especificado): 9
+Esôfago: 7
+Estômago 1 (Anterior): 6
+Estômago 2 (Principal): 5
+Rim: 3
+Estômago 3 (Pilórico): 3
+Fígado: 1
+Língua: 1
+Linfonodo mesentérico: 1
+O código precisa gerar um gráfico com:
+Barras horizontais ordenadas do maior valor (no topo) para o menor (embaixo), em um tom de azul marinho sóbrio com contorno mais escuro
+Rótulos de dados: ao final de cada barra, mostrar a quantidade e a porcentagem calculada sobre o total, no formato n (%)
+Layout limpo: sem título interno (porque vou colocar a legenda/título no word conforme a ABNT), sem as linhas de borda de cima e da direita, com uma grade tracejada bem suave atrás das barras apenas no eixo horizontal e o nome "Número de Amostras Positivas (n)" no eixo X
+Por favor, gere o código completo pronto para copiar e colar, me diga o que preciso instalar para rodar e salve o gráfico como uma imagem PNG em alta qualidade pronta para colar no Word.'''
+
 import matplotlib.pyplot as plt
 
 # 1. Configuração tipográfica e estética ABNT (Times New Roman)
