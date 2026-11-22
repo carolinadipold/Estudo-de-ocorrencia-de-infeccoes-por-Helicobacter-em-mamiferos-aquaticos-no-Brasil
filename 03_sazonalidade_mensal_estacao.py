@@ -23,6 +23,10 @@ plt.rcParams['font.family'] = 'serif'
 plt.rcParams['font.serif'] = ['Times New Roman', 'DejaVu Serif']
 plt.rcParams['axes.edgecolor'] = '#333333'
 plt.rcParams['axes.linewidth'] = 0.8
+plt.rcParams['mathtext.fontset'] = 'custom'
+plt.rcParams['mathtext.rm'] = 'Times New Roman'
+plt.rcParams['mathtext.it'] = 'Times New Roman:italic'
+plt.rcParams['mathtext.bfit'] = 'Times New Roman:italic:bold'
 
 # ==============================================================================
 # 2. CARREGAR A PLANILHA E CONVERTER AS DATAS
@@ -137,7 +141,7 @@ fig, axes = plt.subplots(1, 2, figsize=(12.5, 5.2), dpi=300)
 
 # Título geral no topo (com Helicobacter em itálico)
 fig.suptitle(
-    'Distribuição sazonal de mamíferos aquáticos avaliados e positividade para $\\it{Helicobacter}$ spp.',
+    'Distribuição sazonal de mamíferos aquáticos avaliados e positividade para $\\mathbfit{Helicobacter}$ spp.',
     fontsize=12, fontweight='bold', y=0.98
 )
 
