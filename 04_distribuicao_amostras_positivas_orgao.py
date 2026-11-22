@@ -1,15 +1,16 @@
+# Dados ilustrativos – substituir pelas contagens reais
 '''Função gerada com auxílio do Google Gemini (modelo 4 Neon) em nov/2026
 Prompt base: Não sei programar em Python, mas preciso gerar um gráfico de barras horizontais em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) mostrando a distribuição das amostras positivas para Helicobacter spp. de acordo com o órgão ou tecido de origem.
 Não precisa ler nenhuma planilha, os dados vão diretamente no código:
-Estômago (não especificado): 9
-Esôfago: 7
-Estômago 1 (Anterior): 6
-Estômago 2 (Principal): 5
-Rim: 3
-Estômago 3 (Pilórico): 3
-Fígado: 1
-Língua: 1
-Linfonodo mesentérico: 1
+Estômago (não especificado): 5
+Esôfago: 2
+Estômago 1 (Anterior): 3
+Estômago 2 (Principal): 8
+Rim: 5
+Estômago 3 (Pilórico): 1
+Fígado: 3
+Língua: 3
+Linfonodo mesentérico: 2
 O código precisa gerar um gráfico com:
 Barras horizontais ordenadas do maior valor (no topo) para o menor (embaixo), em um tom de azul marinho sóbrio com contorno mais escuro
 Rótulos de dados: ao final de cada barra, mostrar a quantidade e a porcentagem calculada sobre o total, no formato n (%)
