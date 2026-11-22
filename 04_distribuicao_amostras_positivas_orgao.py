@@ -31,15 +31,15 @@ plt.rcParams['axes.linewidth'] = 0.8
 
 # 2. Dados das amostras positivas
 dados = [
-    ("Estômago (não especificado)", 9),
-    ("Esôfago", 7),
-    ("Estômago 1 (Anterior)", 6),
-    ("Estômago 2 (Principal)", 5),
-    ("Rim", 3),
-    ("Estômago 3 (Pilórico)", 3),
-    ("Fígado", 1),
-    ("Língua", 1),
-    ("Linfonodo mesentérico", 1)
+    ("Estômago (não especificado)", 5),
+    ("Esôfago", 2),
+    ("Estômago 1 (Anterior)", 3),
+    ("Estômago 2 (Principal)", 8),
+    ("Rim", 5),
+    ("Estômago 3 (Pilórico)", 1),
+    ("Fígado", 3),
+    ("Língua", 3),
+    ("Linfonodo mesentérico", 2)
 ]
 
 total = sum(v for _, v in dados)
