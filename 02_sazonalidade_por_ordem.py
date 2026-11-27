@@ -1,5 +1,5 @@
 '''Função gerada com auxílio do Google Gemini (modelo 4 Neon) em nov/2026
-Prompt base: Não sei programar em Python, mas preciso criar um painel comparativo de gráficos de sazonalidade em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) a partir da minha planilha (dados_geograficos_com_PCR.csv).
+Prompt base: Preciso criar com o Python um painel comparativo de gráficos de sazonalidade em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) a partir da minha planilha (dados_geograficos_com_PCR.csv).
 A planilha tem as colunas:
 Data da ocorrência (no formato brasileiro dia/mês/ano);
 Ordem (com registros de Cetáceos/Cetartiodactyla e Pinípedes/Carnivora);
