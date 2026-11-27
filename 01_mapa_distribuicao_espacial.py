@@ -1,5 +1,5 @@
 '''Função gerada com auxílio do Google Gemini (modelo 4 Neon) em nov/2026
-Prompt base: Não sei programar em Python, mas preciso gerar um mapa em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) usando os dados da minha planilha (dados_geograficos_com_PCR.csv).
+Prompt base: Preciso gerar com o Python um mapa em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) usando os dados da minha planilha (dados_geograficos_com_PCR.csv).
 A minha planilha tem coordenadas geográficas nas colunas Latitude e Longitude (em formato decimal, mas pode ter vírgula no lugar de ponto) e uma coluna chamada PCR_Positivo (onde 1 é positivo e 0 é negativo).
 Quero que o mapa tenha:
 O contorno oficial dos estados do Brasil, com foco na faixa costeira onde estão os meus pontos (de SC até o CE).
