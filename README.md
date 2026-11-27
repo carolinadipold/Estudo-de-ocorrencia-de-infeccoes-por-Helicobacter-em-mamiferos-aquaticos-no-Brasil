@@ -27,9 +27,10 @@ Os códigos foram desenvolvidos em **Python 3.15.2**. Antes de executar os scrip
 
 ```bash
 pip install pandas numpy matplotlib geopandas shapely
+```
+---
 
-
-Declaração de Uso de Inteligência Artificial (IA)
+## Declaração de Uso de Inteligência Artificial (IA)
 Em conformidade com as boas práticas de integridade científica e transparência na pesquisa:
 
 Ferramenta utilizada: Google Gemini (Versão 4 Neon).
