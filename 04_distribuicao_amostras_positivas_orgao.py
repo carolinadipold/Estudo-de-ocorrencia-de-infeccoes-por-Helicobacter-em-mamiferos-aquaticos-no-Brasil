@@ -1,6 +1,6 @@
 # Dados ilustrativos – substituir pelas contagens reais
 '''Função gerada com auxílio do Google Gemini (modelo 4 Neon) em nov/2026
-Prompt base: Não sei programar em Python, mas preciso gerar um gráfico de barras horizontais em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) mostrando a distribuição das amostras positivas para Helicobacter spp. de acordo com o órgão ou tecido de origem.
+Prompt base: Preciso gerar com o Python um gráfico de barras horizontais em alta resolução para um relatório científico (padrão ABNT, fonte Times New Roman) mostrando a distribuição das amostras positivas para Helicobacter spp. de acordo com o órgão ou tecido de origem.
 Não precisa ler nenhuma planilha, os dados vão diretamente no código:
 Estômago (não especificado): 5
 Esôfago: 2
